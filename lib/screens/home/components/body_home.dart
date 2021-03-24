@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:reservasiui/models/data_banner.dart';
+import 'package:reservasiui/routing/constanta.dart';
 import 'package:reservasiui/screens/detail/detail_tips_screen.dart';
 import 'package:reservasiui/utils/colors.dart';
 import 'package:reservasiui/utils/size_config.dart';
@@ -148,7 +149,7 @@ class _BodyHomeState extends State<BodyHome> {
           ),
           GestureDetector(
             onTap: () {
-              this.onTap(1);
+              Navigator.pushNamed(context, createReservation);
             },
             child: Stack(
               children: [

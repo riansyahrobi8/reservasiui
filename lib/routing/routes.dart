@@ -5,6 +5,7 @@ import 'package:reservasiui/screens/help/help_screen.dart';
 import 'package:reservasiui/screens/home/home_screen.dart';
 import 'package:reservasiui/screens/login/login_screen.dart';
 import 'package:reservasiui/screens/register/register_screen.dart';
+import 'package:reservasiui/screens/reservasi/create_reservation/create_reservation_screen.dart';
 import 'package:reservasiui/screens/splash/splash_screen.dart';
 
 class Routes {
@@ -20,6 +21,8 @@ class Routes {
         return MaterialPageRoute(builder: (_) => AboutScreen());
       case help:
         return MaterialPageRoute(builder: (_) => HelpScreen());
+      case createReservation:
+        return MaterialPageRoute(builder: (_) => CreateReservationScreen());
       default:
         return MaterialPageRoute(builder: (_) => SplashScreen());
     }

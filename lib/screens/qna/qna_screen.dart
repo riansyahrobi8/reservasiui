@@ -83,25 +83,33 @@ class BuildQnaItem extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(ask,
-                            style: TextStyle(fontSize: 14.0, color: kText2)),
+                            style: TextStyle(
+                                fontSize: 14.0,
+                                color: kText2,
+                                decoration: TextDecoration.none)),
                         SizedBox(height: getProportionateScreenWidth(8.0)),
                         Text(
                           "Dok, kenapa gigi saya sakit tiba-tiba ?",
                           style: TextStyle(
                               color: kText1,
                               fontSize: 18.0,
+                              decoration: TextDecoration.none,
                               fontWeight: FontWeight.bold),
                         ),
                         SizedBox(
                           height: getProportionateScreenHeight(24.0),
                         ),
                         Text(textAnswer,
-                            style: TextStyle(fontSize: 14.0, color: kText2)),
+                            style: TextStyle(
+                                fontSize: 14.0,
+                                color: kText2,
+                                decoration: TextDecoration.none)),
                         SizedBox(height: getProportionateScreenWidth(8.0)),
                         Text(
                           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                           style: TextStyle(
                               color: kText1,
+                              decoration: TextDecoration.none,
                               fontSize: 18.0,
                               fontWeight: FontWeight.bold),
                         ),

@@ -99,3 +99,7 @@ const aboutAppDesc = "Ketahui tentang aplikasi ini";
 
 const helpApp = "Bantuan";
 const helpAppDesc = "Tata cara menggunakan aplikasi ini";
+
+const createReservationApp = "Buat Reservasi";
+const chooseDate = "Pilih Tanggal";
+const chooseTime = "Pilih Waktu";
