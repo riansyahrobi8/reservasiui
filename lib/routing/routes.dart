@@ -4,6 +4,7 @@ import 'package:reservasiui/screens/about/about_screen.dart';
 import 'package:reservasiui/screens/help/help_screen.dart';
 import 'package:reservasiui/screens/home/home_screen.dart';
 import 'package:reservasiui/screens/login/login_screen.dart';
+import 'package:reservasiui/screens/promo/promo_screen.dart';
 import 'package:reservasiui/screens/register/register_screen.dart';
 import 'package:reservasiui/screens/reservasi/create_reservation/create_reservation_screen.dart';
 import 'package:reservasiui/screens/splash/splash_screen.dart';
@@ -23,6 +24,8 @@ class Routes {
         return MaterialPageRoute(builder: (_) => HelpScreen());
       case createReservation:
         return MaterialPageRoute(builder: (_) => CreateReservationScreen());
+      case promo:
+        return MaterialPageRoute(builder: (_) => PromoScreen());
       default:
         return MaterialPageRoute(builder: (_) => SplashScreen());
     }

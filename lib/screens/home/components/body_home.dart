@@ -34,6 +34,14 @@ class _BodyHomeState extends State<BodyHome> {
           style: TextStyle(
               color: kPrimary, fontSize: 18.0, fontWeight: FontWeight.bold),
         ),
+        actions: [
+          Padding(
+            padding: EdgeInsets.only(right: getProportionateScreenWidth(8.0)),
+            child: IconButton(
+                icon: Icon(Icons.local_play_rounded),
+                onPressed: () => Navigator.pushNamed(context, promo)),
+          )
+        ],
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
